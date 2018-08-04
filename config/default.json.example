@@ -1,0 +1,56 @@
+{
+    "app_name": "Messenger Bot",
+    "app_id" : "283117805510944",
+    "appID": "283117805510944",
+    "appSecret": "8a18436f7ef780f3387c59cd842dfdf1",
+    "pageAccessToken": "",
+    "accessToken" : "",    
+    "pageID": "",
+    "usernamePage": "",
+    "validationToken": "webhook",
+    "serverURL": "https://ce4bac78.ngrok.io",
+    "levelLogging": "debug",
+    "env": "dev",
+    "port": "8080",
+    "aws" : {
+        "apiVersion": "2006-03-01",
+        "accessKeyId": "",
+        "secretAccessKey": "",
+        "region": "",
+        "bucket": ""
+    },
+     "mongo" : {
+        "enabled" : false,
+        "hostName": "localhost",
+        "port":27017,
+        "databaseName": "",
+        "username": "",
+        "password": ""
+    },
+    "wit": {
+        "access": ""
+    },
+    "facebook": {
+        "clientID": "",
+        "clientSecret": "",
+        "callbackURL": "",
+        "loginURL": ""
+    },
+    "sentry" : {
+        "DSN" : ""
+    },
+    "google": {
+        "maps": {
+            "apiKey": ""
+        },
+        "spreadsheets": {
+            "private_key": ""
+        }
+    },
+    "firebase": {
+        "apiKey": "",
+        "authDomain": "",
+        "databaseURL": "",
+        "storageBucket": ""
+    }
+}
